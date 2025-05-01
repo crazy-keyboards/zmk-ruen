@@ -3,10 +3,10 @@
 #define RUEN_DLR &ruen_one_key 1 DLR // $
 #define RUEN_CARET &ruen_one_key 1 CARET // ^
 #define RUEN_AMPS &ruen_one_key 1 AMPS // &
-#define RUEN_LBRC &ruen_one_key 1 LBRC // [
-#define RUEN_LBRK &ruen_one_key 1 LBRK // {
-#define RUEN_RBRC &ruen_one_key 1 RBRC // ]
-#define RUEN_RBRK &ruen_one_key 1 RBRK // }
+#define RUEN_LBKT &ruen_one_key 1 LBKT // [
+#define RUEN_LBRC &ruen_one_key 1 LBRC // {
+#define RUEN_RBKT &ruen_one_key 1 RBKT // ]
+#define RUEN_RBRC &ruen_one_key 1 RBRC // }
 #define RUEN_PIPE &ruen_one_key 1 LS(BSLH) // |
 #define RUEN_SEMI &ruen_key SEMI LS(N4) // ;
 #define RUEN_COLON &ruen_key COLON LS(N6) // :
