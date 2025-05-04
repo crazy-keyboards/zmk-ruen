@@ -3,7 +3,10 @@
 #include <zephyr/device.h>
 #include <drivers/behavior.h>
 #include <zmk/behavior.h>
+#include <zmk/hid.h>
 #include <zmk/lang.h>
+#include <zmk/events/keycode_state_changed.h>
+#include <zmk/endpoints.h>
 #include <zephyr/kernel.h>
 
 static int on_ruen_set_pressed(struct zmk_behavior_binding *binding, struct zmk_behavior_binding_event event) {
