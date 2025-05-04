@@ -1,0 +1,5 @@
+description: RuEn lang set behavior
+
+compatible: "zmk,behavior-ruen-set"
+
+include: one_param.yaml
